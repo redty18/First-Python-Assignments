@@ -1,0 +1,9 @@
+character = str(input("Enter a string: "))
+character2  = str(input("Enter a character to count: "))
+count = 0
+
+for letter in character:
+    if letter == character2:
+        count += 1
+
+print("Occurences of " + str(character2) + ": " + str(count))

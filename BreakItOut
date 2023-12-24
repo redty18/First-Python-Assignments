@@ -1,0 +1,10 @@
+list = [int(x) for x in input("Enter integers separated by spaces: numbers ").split()]
+count = 0
+print(list)
+
+for num in list:
+    if num == 5:
+        break
+    count += 1
+
+print(count)

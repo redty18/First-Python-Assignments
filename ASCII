@@ -1,0 +1,6 @@
+pattern = "*****"
+count = ""
+
+for l in pattern:
+    count += "*"
+    print(count)

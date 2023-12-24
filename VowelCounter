@@ -1,0 +1,8 @@
+vowel = str(input("Enter a word: "))
+count = 0
+
+for l in vowel:
+    if l == "a" or l == "e" or l == "i" or l == "o" or l == "u": 
+        count += 1
+
+print("Vowel Count: " + str(count))

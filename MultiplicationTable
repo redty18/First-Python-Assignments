@@ -1,0 +1,7 @@
+num = int(input("Enter a number: "))
+count = 1
+maxMulti = 11
+
+while count < maxMulti:
+    print(str(num) + " x " + str(count) + " = " + str(num * count))
+    count += 1
