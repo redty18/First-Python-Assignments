@@ -1,5 +1,7 @@
-student = {'name': 'Alice', 'age': 20, 'grade': 95}
+dictionary = {"name" : "Heb", "age" : 20, "list" : ["apple" , "banana" , "orange"], "grade" : 100, "approve" : "yes"}
 
-print(student['name'])
-print(student.keys())
-print(student.items())
+print(dictionary["list"])
+print(dictionary["name"])
+print(dictionary.keys())
+print(dictionary.values())
+print(dictionary.get("approve" , "NO"))
