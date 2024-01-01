@@ -2,9 +2,10 @@
 
 # print(dictionary["list"])
 # print(dictionary["name"])
-# print(dictionary.keys())
-# print(dictionary.values())
+# print(dictionary.keys()) = list of all keys in dictionary
+# print(dictionary.values()) = list of all values in dictionary
 # print(dictionary.get("approve" , "NO"))
+#dictionary.items() = list of all pairs in dictionary
 
 # personal_info = {"name" : "Adit", "age" : 20, "country" : "USA", "hobbies": ["swimming", "guitar"]}
 # print(personal_info)
