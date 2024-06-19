@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, button {
+    padding: 5px;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.contact {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact button {
+    margin-right: 10px;
+}
+
+#contacts-list {
+    margin-bottom: 20px;
+}
